@@ -1,5 +1,27 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8253565286204387023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d9a0c0f93de9f24e85e05f66e730807, type: 3}
+  m_Name: LiteEffectRenderFeature
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  settings:
+    renderPassEvent: 300
+    layerMask:
+      m_Bits: 4294967295
+    stencilRef: 0
+    stencilCompare: 8
+    stencilPassOp: 2
+    stencilFailOp: 0
+    stencilZFailOp: 0
 --- !u!114 &-5822317730920755289
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19,13 +41,13 @@ MonoBehaviour:
     Blur: 1
     BlurAmount: 1
     BlurMask: {fileID: 0}
-    Bloom: 0
+    Bloom: 1
     BloomColor: {r: 1, g: 1, b: 1, a: 1}
-    BloomAmount: 1
+    BloomAmount: 2.63
     BloomDiffuse: 1
     BloomThreshold: 0
     BloomSoftness: 0
-    LUT: 0
+    LUT: 1
     LutAmount: 0
     SourceLut: {fileID: 0}
     ImageFiltering: 0
@@ -36,8 +58,8 @@ MonoBehaviour:
     Exposure: 0
     Gamma: 0
     Sharpness: 0
-    ChromaticAberration: 0
-    Offset: 0
+    ChromaticAberration: 1
+    Offset: 6.56
     FishEyeDistortion: 0
     GlitchAmount: 0
     Distortion: 0
@@ -73,9 +95,10 @@ MonoBehaviour:
   m_RendererFeatures:
   - {fileID: 6667001645204553093}
   - {fileID: 7529885881588839128}
-  - {fileID: 3442091008581230751}
+  - {fileID: 0}
   - {fileID: -5822317730920755289}
-  m_RendererFeatureMap: 85bd5c4bacf2855cd8f2547350877f689fe00c0b89c3c42fa78f0227dff832af
+  - {fileID: 0}
+  m_RendererFeatureMap: 85bd5c4bacf2855cd8f2547350877f689fe00c0b89c3c42fa78f0227dff832af31d14af91972758d
   m_UseNativeRenderPass: 0
   xrSystemData: {fileID: 11400000, guid: 60e1133243b97e347b653163a8c01b64, type: 2}
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
@@ -160,7 +183,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b3d386ba5cd94485973aee1479b272e, type: 3}
   m_Name: ignoreFullScreen
   m_EditorClassIdentifier: 
-  m_Active: 1
+  m_Active: 0
   settings:
     passTag: ignoreFullScreen
     Event: 300
