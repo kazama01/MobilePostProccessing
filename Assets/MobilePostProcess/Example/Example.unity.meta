@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: cd5488c658f8e9e4ba0d9c39a96743f0
+timeCreated: 1513517053
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 129638
+  packageName: 'Fast Mobile Post Processing: Color Correction(LUT), Blur, Bloom (
+    URP , VR , AR , LWRP )'
+  packageVersion: 1.7
+  assetPath: Assets/MobilePostProcess/Example/Example.unity
+  uploadId: 387015

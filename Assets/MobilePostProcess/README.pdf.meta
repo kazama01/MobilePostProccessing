@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 30348127857d5b34c96893797a7cc46d
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 129638
+  packageName: 'Fast Mobile Post Processing: Color Correction(LUT), Blur, Bloom (
+    URP , VR , AR , LWRP )'
+  packageVersion: 1.7
+  assetPath: Assets/MobilePostProcess/README.pdf
+  uploadId: 387015

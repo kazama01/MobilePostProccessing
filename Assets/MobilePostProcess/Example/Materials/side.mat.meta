@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 0252e2235424b5e45b9f31ef791c5e16
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 129638
+  packageName: 'Fast Mobile Post Processing: Color Correction(LUT), Blur, Bloom (
+    URP , VR , AR , LWRP )'
+  packageVersion: 1.7
+  assetPath: Assets/MobilePostProcess/Example/Materials/side.mat
+  uploadId: 387015

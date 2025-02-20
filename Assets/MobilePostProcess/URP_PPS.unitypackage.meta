@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 367ffba40540a9c4fb716aa863405628
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 129638
+  packageName: 'Fast Mobile Post Processing: Color Correction(LUT), Blur, Bloom (
+    URP , VR , AR , LWRP )'
+  packageVersion: 1.7
+  assetPath: Assets/MobilePostProcess/URP_PPS.unitypackage
+  uploadId: 387015
